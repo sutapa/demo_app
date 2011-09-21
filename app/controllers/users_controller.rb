@@ -3,9 +3,6 @@ class UsersController < ApplicationController
   # GET /users.xml
   def index
     @users = User.all
-
-
-
   end
 
   # GET /users/1
